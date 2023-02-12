@@ -6,7 +6,7 @@
   //"image": "mcr.microsoft.com/devcontainers/go:0-1-bullseye",
   "dockerComposeFile": "./docker-compose.yaml",
   "service": "devcontainer",
-  "workspaceFolder": "/home/node",
+  "workspaceFolder": "/workspaces/webpack",
   "customizations": {
     "vscode": {
       "extensions": [
