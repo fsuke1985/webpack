@@ -30,6 +30,6 @@ RUN curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | s
 && sudo apt install gh -y
 
 # [Optional] Uncomment the next lines to use go get to install anything else you need
-USER vscode
+USER node
 # pnpm install
 RUN curl -fsSL https://get.pnpm.io/install.sh | bash -

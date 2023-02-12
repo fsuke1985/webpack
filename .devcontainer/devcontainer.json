@@ -6,7 +6,7 @@
   //"image": "mcr.microsoft.com/devcontainers/go:0-1-bullseye",
   "dockerComposeFile": "./docker-compose.yaml",
   "service": "devcontainer",
-  "workspaceFolder": "/workspaces/__webpack__",
+  "workspaceFolder": "/home/node",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -28,7 +28,7 @@
   "forwardPorts": [5432],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "gcloud auth login --cred-file gcp_credentials.json"
+  //"postCreateCommand": "gcloud auth login --cred-file gcp_credentials.json"
 
   // Configure tool-specific properties.
   // "customizations": {},
